@@ -1,4 +1,4 @@
-# Simple Image Compressor
+# [Simple Image Compressor](https://vaibhavharsoda.github.io/Image-Compressor)
 
 **⚡ Reduce image file size without compromising quality ⚡**
 
