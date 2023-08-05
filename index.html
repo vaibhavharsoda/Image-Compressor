@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Compressor</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png"  href="assets/compress.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Image Compressor</h2>
+        <label for="imageInput" class="custom-file-upload">Select Image</label>
+        <input type="file" id="imageInput">
+        <br>
+        <button onclick="compressAndSave()" id="compressButton">Compress and Save</button>
+        <br>
+        <h4 style="display: inline-flex;">
+            <img src="assets/github.svg" height="20px" width="20px">
+            <a target="_blank" href="https://www.github.com/vaibhavharsoda">Github</a>
+        </h4>
+        <img id="preview">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
